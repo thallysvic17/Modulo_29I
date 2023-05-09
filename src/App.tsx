@@ -1,12 +1,20 @@
-import Teste from './teste';
-import GlobalStyle from './styles';
+import Sidebar from './Components/SideBar';
+import Section1 from './Components/Section1';
+import GlobalStyle, { Container } from './styles';
+import Projetos from './Components/Projetos';
+
 
 function App() {
   return (
     <>
-    
-    <GlobalStyle/>
-    <Teste/>
+      <GlobalStyle/>
+      <Container>
+        <Sidebar/>
+        <main>
+          <Section1 />
+          <Projetos />
+        </main>
+      </Container>
 
     </>
 
@@ -14,4 +22,5 @@ function App() {
 }
 
 export default App;
+
 
