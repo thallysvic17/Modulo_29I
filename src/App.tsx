@@ -1,6 +1,6 @@
 import Sidebar from './Components/SideBar';
 import Section1 from './Components/Section1';
-import GlobalStyle, { Container } from './styles';
+import GlobalStyle, { Container } from './Reset';
 import Projetos from './Components/Projetos';
 
 

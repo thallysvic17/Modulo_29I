@@ -1,4 +1,4 @@
-import Titulo from "../SideBar/Titulo"
+import Titulo from "../Titulo"
 import Paragrafo from "../../Components/Paragrafos"
 import { GithubSection } from "./styles"
 
