@@ -31,6 +31,18 @@ const Projetos = () => (
             <li>
                 <CardProjeto />
             </li>
+            <li>
+                <CardProjeto />
+            </li>
+            <li>
+                <CardProjeto />
+            </li>
+            <li>
+                <CardProjeto />
+            </li>
+            <li>
+                <CardProjeto />
+            </li>
         </CardList>
     </section>
 )

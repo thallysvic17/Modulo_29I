@@ -1,10 +1,23 @@
+import Avatar from "../Avatar-SideBar"
+import Paragrafo from "../Paragrafos"
 import Titulo from "../Titulo"
+import {Description, Button, SidebarContainer} from './styles'
 
-const Sidebar = () => (
+
+type Props ={
+    trocaTema: () => void;
+}
+
+const Sidebar = (props : Props) => (
 
     <aside>
-        <img src="https://github.com/thallysvic17.png" alt="foto perfil"/>
-        <Titulo fontSize={20}>Thallys Alves</Titulo>
+        <SidebarContainer>
+            <Avatar/>
+            <Titulo fontSize={20}>Thallys Alves</Titulo>
+            <Paragrafo tipo="principal" fontSize={16} >Thallysvic17</Paragrafo>
+            <Description  tipo='secundario'fontSize={12}>Front-end project</Description>
+            <Button onClick={props.trocaTema}>trocar tema</Button>
+        </SidebarContainer>
     </aside>
 )
 
